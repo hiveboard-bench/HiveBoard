@@ -137,7 +137,7 @@ Attach the setup photograph in the runner or add it to the extracted ZIP as `set
 
 Friction, mass, and inertia are nominal values. Check joint motion, collision geometry, and physical parameters in the simulator used for an experiment, and report any parameter overrides.
 
-Isaac Lab environments and training code are maintained separately in [hiveboard-bench/isaaclab-hiveboard](https://github.com/hiveboard-bench/isaaclab-hiveboard). See the [simulation documentation](https://hiveboard-bench.github.io/hivedocs/simulation/assets) for asset usage and the [Isaac Lab guide](https://hiveboard-bench.github.io/hivedocs/simulation/isaac-lab) for installation and commands.
+Isaac Lab environments are maintained in [hiveboard-bench/isaaclab-hiveboard](https://github.com/hiveboard-bench/isaaclab-hiveboard). Training workflows are maintained in [hiveboard-bench/hiveboard-rl](https://github.com/hiveboard-bench/hiveboard-rl). See the [simulation documentation](https://hiveboard-bench.github.io/hivedocs/simulation/assets) for asset usage and the [Isaac Lab guide](https://hiveboard-bench.github.io/hivedocs/simulation/isaac-lab) for installation and commands.
 
 ## Reported evaluations
 
