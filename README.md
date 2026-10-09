@@ -180,7 +180,7 @@ If you use HiveBoard in your research, cite the project paper:
               Bicchi, Antonio and Becker, Marcelo},
   journal = {Under review},
   year    = {2026},
-  url     = {https://github.com/EESC-LabRoM/HiveBoard}
+  url     = {https://github.com/hiveboard-bench/HiveBoard}
 }
 ```
 
