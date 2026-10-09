@@ -175,7 +175,7 @@ If you use HiveBoard in your research, cite the project paper:
   author  = {Godoy, Ricardo V. and de Souza, Enzo F. and de Lange, Rudy De-Xin and
              Negri, Juliano and Marsicano, Jo\~{a}o A. and van Halst, Victor and
              Elanjimattathil Vijayan, Aravind and Capezzuto, Gianluca and
-             Angarola, Matheus P. and Tommaselli, Felipe A. G. and Milazzo, Giuseppe and Baptista, Rafael R. and
+             Angarola, Matheus P. and Tommaselli, Felipe and Milazzo, Giuseppe and Baptista, Rafael R. and
               van Berge, Meiko Adriana and Bezerra, Ranulfo and Lahr, Gustavo J. G. and Ferrari Gerez, Lucas and
               Bicchi, Antonio and Becker, Marcelo},
   journal = {Under review},
