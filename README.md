@@ -10,7 +10,7 @@
 
 [Project website](https://hiveboard-bench.github.io) · [Documentation](https://hiveboard-bench.github.io/hivedocs/) · [Evaluation Runner](https://hiveboard-bench.github.io/hivedocs/benchmark/evaluation-runner) · [Demonstration video](https://youtu.be/kaYB_Oc64nA)
 
-HiveBoard is a modular, 3D-printable benchmark of industrial mechanisms for robotic and prosthetic manipulation. Its attachments require constrained motions such as valve rotation, threading, key insertion, and drawer opening and closing.
+HiveBoard is a modular, 3D-printable benchmark of industrial mechanisms for robotic and prosthetic manipulation. Its attachments require constrained motions such as valve rotation, threading, key insertion, and drawer insertion.
 
 A seven-cell honeycomb base accepts interchangeable attachments through a shared press-fit interface. The same board and protocol can be used to evaluate robot grippers, dexterous hands, teleoperated manipulators, and worn prosthetic hands.
 
@@ -51,7 +51,7 @@ HiveBoard has 12 attachment designs evaluated in 13 conditions. The ball valve i
 | Precision | Peg insertion | Align and thread the free 8 mm peg into the socket until seated |
 | Composed assembly | Button | Open the cover and press the button |
 | Composed assembly | Lock and key | Grasp the key, insert it vertically, and turn it to unlock |
-| Composed assembly | Drawer | Grasp the handle, pull the drawer open, and push it closed |
+| Composed assembly | Drawer | Grasp the drawer, align it with its housing, and insert it fully |
 | Composed assembly | Shock absorber | Grasp the loose part, align its hole with the pin, and insert the part fully onto the pin |
 
 The friction-ring accessory includes four rings with different rotational resistance. Record the configuration used. The gate-valve criterion is **one full turn of the stem**; full travel depends on the printed thread pitch. For composed assembly tasks, record the last completed stage as well as the overall outcome.

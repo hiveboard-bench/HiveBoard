@@ -46,8 +46,10 @@ For Thread (M8) and Thread (M30), start with the nut completely removed from the
 |---|---|---|---|
 | Button (`button`) | Open the cover | Press the button | n/a |
 | Lock and key (`lock`) | Grasp key | Insert key vertically | Rotate to unlock |
-| Drawer (`drawer`) | Grasp handle | Pull open | Push closed |
+| Drawer (`drawer`) | Grasp drawer | Align with housing | Insert fully |
 | Shock absorber (`shock_absorber`) | Grasp loose part | Align its hole with the pin | Insert part fully onto pin |
+
+For Drawer, start with the drawer completely removed from its housing. Record `1` after grasping, `2` after alignment with the housing, and `3` after full insertion. Partial insertion remains stage `2`. Identify earlier open-and-close trials in `notes`.
 
 Enter the number, not the stage name. A shock-absorber trial in which the loose part was grasped but its hole was never aligned with the pin is `1`. A trial in which the gripper never held the loose part is `0`. The loose part moves onto the pin, which stays in place.
 

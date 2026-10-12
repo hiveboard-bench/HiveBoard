@@ -120,8 +120,10 @@ These attachments are scored at sub-task granularity. Record the last completed 
 |---|---|---|
 | Button | (1) Open the cover (2) Press the button until actuation | 60 s |
 | Lock and key | (1) Grasp key (2) Insert key vertically (3) Rotate to unlock | 180 s |
-| Drawer | (1) Grasp handle (2) Pull open (3) Push closed | 120 s |
+| Drawer | (1) Grasp the drawer (2) Align with the housing (3) Insert fully | 120 s |
 | Shock absorber | (1) Grasp the loose part (2) Align its hole with the pin (3) Insert the part fully onto the pin | 180 s |
+
+**Drawer starting state and reset.** Start with the drawer completely removed from its housing and placed in its documented starting pose. The housing stays fixed to the board. Grasp the drawer, align it with the housing opening, and insert it fully until correctly seated. The 120 s timeout includes the initial approach and grasp. Remove the drawer completely before the next trial. Record stage `2` for alignment with only partial insertion and stage `3` for full insertion. Identify earlier trials that used an open-and-close sequence in `notes` when reporting results.
 
 A trial is a full success only if all stages complete within the timeout. Partial completions are recorded by their last completed stage in the `stage_reached` column.
 
