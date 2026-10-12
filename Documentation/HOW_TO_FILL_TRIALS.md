@@ -6,6 +6,12 @@ The CSV is pre-populated with one row per trial, in the order trials should be r
 
 For a video walk-through of the protocol see: https://youtu.be/kaYB_Oc64nA
 
+## Timing and starting state
+
+Start timing with the first commanded approach motion and include the initial grasp. When using the website runner, begin that approach when the countdown reaches zero. Grasping remains stage 1 for Lock and key, Drawer, and Shock absorber.
+
+For Thread (M8) and Thread (M30), start with the nut completely removed from the fixed screw. Picking up the nut, alignment, and initial thread engagement are included in the trial time. The runner's reference images show the assembled mechanism. Record any earlier trials with an already engaged nut in `notes` and describe their starting configuration in `platform.md`.
+
 ## Columns to fill
 
 | Column | What to enter |
@@ -40,8 +46,10 @@ For a video walk-through of the protocol see: https://youtu.be/kaYB_Oc64nA
 |---|---|---|---|
 | Button (`button`) | Open the cover | Press the button | n/a |
 | Lock and key (`lock`) | Grasp key | Insert key vertically | Rotate to unlock |
-| Drawer (`drawer`) | Grasp handle | Pull open | Push closed |
+| Drawer (`drawer`) | Grasp drawer | Align with housing | Insert fully |
 | Shock absorber (`shock_absorber`) | Grasp loose part | Align its hole with the pin | Insert part fully onto pin |
+
+For Drawer, start with the drawer completely removed from its housing. Record `1` after grasping, `2` after alignment with the housing, and `3` after full insertion. Partial insertion remains stage `2`. Identify earlier open-and-close trials in `notes`.
 
 Enter the number, not the stage name. A shock-absorber trial in which the loose part was grasped but its hole was never aligned with the pin is `1`. A trial in which the gripper never held the loose part is `0`. The loose part moves onto the pin, which stays in place.
 

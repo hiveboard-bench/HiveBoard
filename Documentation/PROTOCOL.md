@@ -79,6 +79,8 @@ For each `(platform, condition)` pair:
 4. **Trial end.** Stop timing when the success criterion is met, when a safety event occurs, or when the timeout is reached.
 5. **Reset.** Return the attachment to its starting state between trials. Re-seat the attachment in its cell if displaced.
 
+Timing includes the initial approach and grasp. Grasping remains stage 1 for Lock and key, Drawer, and Shock absorber. Picking up the loose bulb, nut, or peg is also included in the trial time.
+
 The ball valve is run as two separate sets of 5 trials: once without the friction ring (`valve_ball`) and once with the ring fitted (`valve_ball_ring`).
 
 No scripted assistance, replanning, or per-trial parameter tuning is permitted during recorded trials. A restarted approach within a trial counts as another attempt. Count a regrasp only when the end-effector releases the part and grasps it again. The initial grasp is not a regrasp. Attempts and regrasps are separate counts; neither starts a new trial.
@@ -102,9 +104,11 @@ No scripted assistance, replanning, or per-trial parameter tuning is permitted d
 | Attachment | Success criterion | Timeout |
 |---|---|---|
 | Light bulb | Bulb fully threaded until seated | 120 s |
-| Thread (M8) | Bolt fully threaded along available length | 120 s |
-| Thread (M30) | Bolt fully threaded along available length | 120 s |
+| Thread (M8) | Nut fully threaded along the available length of the fixed screw | 120 s |
+| Thread (M30) | Nut fully threaded along the available length of the fixed screw | 120 s |
 | Peg insertion | Free peg threaded into the empty socket until it seats | 120 s |
+
+**Thread (M8) and Thread (M30) starting state.** The nut starts completely removed from the fixed screw, with no thread engagement. Alignment and initial thread engagement are part of the task. Fully unthread and remove the nut before every trial, and document its starting pose in `platform.md`. The runner's images show the assembled mechanism with the nut on the screw. They do not define the required starting state. Identify earlier trials that began with the nut engaged when reporting results, since their completion times exclude part of the task.
 
 The gate valve criterion is one full turn of the stem, not travel from fully closed to fully open. A platform that can turn the stem once can repeat the motion, and the number of turns to full travel depends on the printed thread pitch, so full travel is not comparable across prints. If your trials ran to full travel, report the time to the first complete turn and note it in the `notes` column.
 
@@ -116,8 +120,10 @@ These attachments are scored at sub-task granularity. Record the last completed 
 |---|---|---|
 | Button | (1) Open the cover (2) Press the button until actuation | 60 s |
 | Lock and key | (1) Grasp key (2) Insert key vertically (3) Rotate to unlock | 180 s |
-| Drawer | (1) Grasp handle (2) Pull open (3) Push closed | 120 s |
+| Drawer | (1) Grasp the drawer (2) Align with the housing (3) Insert fully | 120 s |
 | Shock absorber | (1) Grasp the loose part (2) Align its hole with the pin (3) Insert the part fully onto the pin | 180 s |
+
+**Drawer starting state and reset.** Start with the drawer completely removed from its housing and placed in its documented starting pose. The housing stays fixed to the board. Grasp the drawer, align it with the housing opening, and insert it fully until correctly seated. The 120 s timeout includes the initial approach and grasp. Remove the drawer completely before the next trial. Record stage `2` for alignment with only partial insertion and stage `3` for full insertion. Identify earlier trials that used an open-and-close sequence in `notes` when reporting results.
 
 A trial is a full success only if all stages complete within the timeout. Partial completions are recorded by their last completed stage in the `stage_reached` column.
 
