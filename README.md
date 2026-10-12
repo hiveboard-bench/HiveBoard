@@ -46,8 +46,8 @@ HiveBoard has 12 attachment designs evaluated in 13 conditions. The ball valve i
 | Torque | Gate valve (large) | Rotate the stem one full turn |
 | Torque | Circuit breaker | Move the toggle to the opposite state and hold it |
 | Precision | Light bulb | Thread the bulb until seated |
-| Precision | Thread (M8) | Thread the bolt along the available length |
-| Precision | Thread (M30) | Thread the bolt along the available length |
+| Precision | Thread (M8) | Align the separate nut with the screw and thread it along the available length |
+| Precision | Thread (M30) | Align the separate nut with the screw and thread it along the available length |
 | Precision | Peg insertion | Align and thread the free 8 mm peg into the socket until seated |
 | Composed assembly | Button | Open the cover and press the button |
 | Composed assembly | Lock and key | Grasp the key, insert it vertically, and turn it to unlock |
