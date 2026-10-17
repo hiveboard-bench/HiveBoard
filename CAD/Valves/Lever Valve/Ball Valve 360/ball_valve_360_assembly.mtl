@@ -1,0 +1,8 @@
+# Display materials. Select print filament separately.
+
+newmtl base_gray
+Kd 0.796078 0.796078 0.796078
+
+newmtl lever_green
+Kd 0.266667 0.588235 0.282353
+

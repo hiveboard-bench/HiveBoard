@@ -1,0 +1,8 @@
+# Display materials. Select print filament separately.
+
+newmtl white_pla
+Kd 0.964706 0.964706 0.952941
+
+newmtl black_pla
+Kd 0.02 0.02 0.02
+
