@@ -60,7 +60,13 @@ See [the protocol](Documentation/PROTOCOL.md) for timeouts and stage definitions
 
 ## ArUco cell
 
-The optional [ArUco cell](CAD/ArUco%20Cell/) provides a visual reference for board localization and alignment between physical and simulated scenes. Print the base in white PLA and the marker insert in black PLA, fit the parts together, and optionally glue the mating surfaces. The folder includes the two printable parts, an assembled model, a CAD reference image, and printing and assembly instructions.
+The optional [ArUco cells](CAD/ArUco%20Cell/) provide visual references for board localization and alignment between physical and simulated scenes. **IDs 0 and 1** use OpenCV `DICT_4X4_50` and the same mounting geometry. Print each base in white PLA and its marker insert in black PLA, fit the parts together, and optionally glue the mating surfaces. Use unique IDs when installing multiple cells and record each marker-to-board transform. The [ID 1 folder](CAD/ArUco%20Cell/ID1/) includes separate component OBJs and OBJ/MTL and USDZ assemblies.
+
+## Ball valve — 360° variant
+
+The optional [360° ball-valve variant](CAD/Valves/Lever%20Valve/Ball%20Valve%20360/) allows free rotation beyond the usual quarter turn. It is intended for learning-based methods and controller debugging, where overshoot can break a valve with a rotation stop. The release includes separate base and lever OBJs, a shared MTL, and OBJ and USDZ assemblies.
+
+The standard Ball valve target remains 90°. Record the variant and target in experiment metadata and identify the hardware when comparing results. It adds no new scored condition. See the [variant guide](https://hiveboard-bench.github.io/hivedocs/hardware/ball-valve-360) for scale, assembly, and use.
 
 ## Recommended 3D printing settings
 

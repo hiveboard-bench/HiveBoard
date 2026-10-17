@@ -127,6 +127,10 @@ These attachments are scored at sub-task granularity. Record the last completed 
 
 A trial is a full success only if all stages complete within the timeout. Partial completions are recorded by their last completed stage in the `stage_reached` column.
 
+### Optional 360° ball-valve variant
+
+The [360° variant](../CAD/Valves/Lever%20Valve/Ball%20Valve%20360/) permits continued rotation beyond the quarter-turn target to reduce damage from overshoot during development. The Ball valve success criterion remains 90° from closed to open. Mark the initial and target orientations. Record `ball_valve_360`, the asset commit, and any friction ring in `platform.md` and identify the hardware variant in reported results. Full-turn training tasks must state their target separately. The variant adds no new scored condition.
+
 ## 6. Data to Log per Trial
 
 Each trial fills one row of `trials.csv` (template provided alongside this protocol). See `HOW_TO_FILL_TRIALS.md` for column-by-column instructions.
