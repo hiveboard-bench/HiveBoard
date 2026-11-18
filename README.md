@@ -64,7 +64,7 @@ The optional [ArUco cells](CAD/ArUco%20Cell/) provide visual references for boar
 
 ## Ball valve — 360° variant
 
-The optional [360° ball-valve variant](CAD/Valves/Lever%20Valve/Ball%20Valve%20360/) allows free rotation beyond the usual quarter turn. It is intended for learning-based methods and controller debugging, where overshoot can break a valve with a rotation stop. The release includes separate base and lever OBJs, a shared MTL, and OBJ and USDZ assemblies.
+The optional [360° ball-valve variant](CAD/Valves/Ball%20Valve/Ball%20Valve%20360/) allows free rotation beyond the usual quarter turn. It is intended for learning-based methods and controller debugging, where overshoot can break a valve with a rotation stop. The release includes an [STL assembly](STL/Valves/Ball%20Valve/Ball%20Valve%20360/ball_valve_360_assembly.stl), separate base and lever OBJs, a shared MTL, and OBJ and USDZ assemblies. The STL uses millimetre coordinates. Split the assembly into separate base and lever objects before printing.
 
 The standard Ball valve target remains 90°. Record the variant and target in experiment metadata and identify the hardware when comparing results. It adds no new scored condition. See the [variant guide](https://hiveboard-bench.github.io/hivedocs/hardware/ball-valve-360) for scale, assembly, and use.
 

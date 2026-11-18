@@ -129,7 +129,7 @@ A trial is a full success only if all stages complete within the timeout. Partia
 
 ### Optional 360° ball-valve variant
 
-The [360° variant](../CAD/Valves/Lever%20Valve/Ball%20Valve%20360/) permits continued rotation beyond the quarter-turn target to reduce damage from overshoot during development. The Ball valve success criterion remains 90° from closed to open. Mark the initial and target orientations. Record `ball_valve_360`, the asset commit, and any friction ring in `platform.md` and identify the hardware variant in reported results. Full-turn training tasks must state their target separately. The variant adds no new scored condition.
+The [360° variant](../CAD/Valves/Ball%20Valve/Ball%20Valve%20360/) permits continued rotation beyond the quarter-turn target to reduce damage from overshoot during development. The Ball valve success criterion remains 90° from closed to open. Mark the initial and target orientations. Record `ball_valve_360`, the asset commit, and any friction ring in `platform.md` and identify the hardware variant in reported results. Full-turn training tasks must state their target separately. The variant adds no new scored condition.
 
 ## 6. Data to Log per Trial
 

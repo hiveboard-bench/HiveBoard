@@ -6,15 +6,18 @@ This variant allows the lever to rotate freely through 360°. It was designed fo
 
 | File | Use |
 |---|---|
+| [ball_valve_360_assembly.stl](../../../../STL/Valves/Ball%20Valve/Ball%20Valve%20360/ball_valve_360_assembly.stl) | Assembly mesh for slicing; split into base and lever before printing |
 | [ball_valve_360_base.obj](ball_valve_360_base.obj) | Separate base body |
 | [ball_valve_360_lever.obj](ball_valve_360_lever.obj) | Separate lever body |
 | [ball_valve_360_assembly.obj](ball_valve_360_assembly.obj) | Assembled reference |
 | [ball_valve_360_assembly.mtl](ball_valve_360_assembly.mtl) | Shared OBJ display materials |
 | [ball_valve_360_assembly.usdz](ball_valve_360_assembly.usdz) | Packaged assembly with original USD materials |
 
-Keep the shared MTL file beside all three OBJs. The base and lever were separated from the supplied assembly by body, preserving the original coordinates and faces. Use the assembly to check fit and orientation. These releases contain mesh and USDZ exports. STEP, STL, and an articulated simulator configuration are not included for this variant.
+Keep the shared MTL file beside all three OBJs. The base and lever were separated from the supplied assembly by body, preserving the original coordinates and faces. Use the assembly to check fit and orientation. The STL contains the base and lever in their assembled positions. Split it into separate objects in the slicer and orient each part on the print bed. STEP files and an articulated simulator configuration are not included for this variant.
 
 ## Scale, printing, and assembly
+
+The STL coordinates are in millimetres. Import it at **100% scale** in a millimetre-based slicer and confirm the 88.1 mm mounting-base width. STL does not store unit metadata.
 
 OBJ coordinates are in centimetres. Multiply them by 10 for a millimetre-based importer or by 0.01 for a metre-based simulator. The mounting base is **88.1 mm** wide. The assembly occupies approximately **162.3 × 76.3 × 66.1 mm** in the exported pose.
 
