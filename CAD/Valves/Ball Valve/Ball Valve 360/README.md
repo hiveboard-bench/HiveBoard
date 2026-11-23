@@ -7,6 +7,7 @@ This variant allows the lever to rotate freely through 360°. It was designed fo
 | File | Use |
 |---|---|
 | [ball_valve_360_assembly.stl](../../../../STL/Valves/Ball%20Valve/Ball%20Valve%20360/ball_valve_360_assembly.stl) | Assembly mesh for slicing; split into base and lever before printing |
+| [ball_valve_360_friction_ring_set.stl](../../../../STL/Valves/Ball%20Valve/Ball%20Valve%20360/ball_valve_360_friction_ring_set.stl) | Friction ring set for the 360° variant |
 | [ball_valve_360_base.obj](ball_valve_360_base.obj) | Separate base body |
 | [ball_valve_360_lever.obj](ball_valve_360_lever.obj) | Separate lever body |
 | [ball_valve_360_assembly.obj](ball_valve_360_assembly.obj) | Assembled reference |
